@@ -41,6 +41,15 @@ function toggleDivVisibilty(){
     }
 }
 
+// Select the reset button
+const resetButton = document.getElementById('resetBtn');
+
+// Add an event listener to the button to reload the page
+resetButton.addEventListener('click', function() {
+  // Reload the page
+  location.reload();
+});
+
 
 
 
